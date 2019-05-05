@@ -1,0 +1,46 @@
+<% include partials/head %>
+<% include partials/header %>
+
+<table class="table data">
+    <th><button class="add" class="btn btn-success">Add Event</button></th>
+    <th><a href="/reserve/:id"><button class="reserve_button">Reserve</button></a></th>
+    <thead>
+      <tr>
+        <th>Event Name</th>
+        <th>Location</th>
+        <th></th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+          <% users.forEach(user => { %>
+        <td class="data"><%= user.events_title %></td>
+        <td class="data"><%= user.location %></td>
+        <td class="data"></td>
+        <td>
+          <button class="save">Save</button>
+          <button class="edit" id="edit">Edit</button>
+          <button class="delete" id="delete">Delete</button>
+        </td>
+      </tr>
+      <tr>
+        <td class="data"><%= user.movies_title %></td>
+        <td class="data"><%= user.location %></td>
+        <td class="data"></td>
+        <td>
+          <button class="save">Save</button>
+          <button class="edit" class="btn btn-info">Edit</button>
+          <button class="delete">Delete</button>
+        </td>
+        
+      </tr>
+    </tbody>
+    <% }) %>
+  </table>
+
+<script src="search.js"></script>
+<script src="events.js"></script>
+
+<% include partials/footer %>
+<% include partials/after-footer %>

@@ -1,0 +1,11 @@
+<% include partials/head %>
+<% include partials/header %>
+
+<% users.forEach(user => {  %>
+    <p><%= user.news %></p>
+    <img src="/images/<%= user.events_images %>" id="article_images">
+
+<% }); %>
+
+<% include partials/footer %>
+<% include partials/after-footer %>
