@@ -1,0 +1,19 @@
+span {
+    color: black;
+}
+
+td {
+    color: black;
+}
+
+.d-md-block {
+    display: block !important;
+    background: #343a40;
+}
+
+.nav-link, span {
+    display: block;
+    padding: .5rem 1rem;
+    color: white;
+    height: 65.7px;
+}

@@ -1,0 +1,14 @@
+p {
+  max-width: 60%;
+  line-height: 2em;
+  margin: auto auto;
+  margin-top: 70px;
+}
+
+#article_images {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 50px;
+}

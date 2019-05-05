@@ -1,0 +1,72 @@
+
+.table thead th {
+  background: black;
+  text-transform: uppercase;
+  vertical-align: top;
+  color: white;
+}
+
+.table tbody tr td {
+  padding: 10px;
+  font-size: 14px;
+  padding-left: 16px;
+}
+
+.add, .edit, .save, .delete {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.edit, .save, .delete {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.edit {
+  margin-left: -52px;
+}
+
+.add {
+  color: #ffffff;
+  font-size: 13px;
+  cursor: pointer;
+  background: #28a745;
+  width: 20%;
+  height: 40px;
+}
+
+.save {
+  display: none;
+  background: #32AD60;
+  color: #ffffff;
+}
+
+.edit {
+  background: #007bff;
+  color: #ffffff;
+}
+.delete {
+  background: #EC5840;
+  color: #ffffff;
+}
+
+.search_button, .search_input {
+  background: transparent;
+  color: white;
+  height: 37px;
+  padding-bottom: 3px;
+  border: white solid 1px;
+}
+
+.search_input:focus {
+  color: white;
+}
+
+.reserve_button {
+  background:#007bff;
+  border: none;
+  height: 40px;
+  width: 20%;
+  color: white;
+}

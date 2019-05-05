@@ -1,0 +1,41 @@
+#background_movies {
+  padding: 0;
+  background-color: #eee;
+  text-align: center;
+}
+
+#movies_images img:hover {
+  cursor: pointer;
+}
+
+.frame {
+  position: relative;
+  width: 310px;
+  height: 200px;
+  padding: 7px;
+  background: white;
+  display: inline-block;
+  margin: 29px;
+  margin-top: 50px;
+}
+
+.shadow-top {
+  position: absolute;
+  left: -50px;
+  border-bottom: 173px solid #bbb;
+  border-left: 50px solid transparent;
+}
+
+.shadow-bottom {
+  position: absolute;
+  left: -50px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #aaa;
+  border-left: 50px solid transparent;
+}
+
+figcaption {
+  margin-top: 20px;
+}

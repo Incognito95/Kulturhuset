@@ -1,0 +1,450 @@
+#oxy-checkout-wrapper {
+  background: #fff;
+  padding: 12px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  color: #666;
+  font-size: 12px;
+  margin: 4px 0 4px;
+}
+
+label span{
+  color: #E96199;
+}
+
+input[type='text'], input[type='phone'], input[type='address'], input[type='name'], input[type='email'], input[type='password'], textarea, select {
+  outline: none;
+  border: 1px solid #ccc;
+  color: #000;
+  font-size: 12px;
+  padding: 8px 12px;
+  transition: all ease 0.2s;
+  margin: 0 0 12px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+input[type='text']:focus, input[type='phone']:focus, input[type='address']:focus, input[type='name']:focus, input[type='email']:focus, input[type='password']:focus, textarea:focus, select:focus {
+  border: 1px solid #E96199;
+  box-shadow: #E96199 0 0 5px;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 12px 0;
+  color: #000;
+}
+
+/* Info Toggles */
+div.oxy-info-toggle {
+  display: flex;
+  flex-direction: row;
+  background: #EEEEEE;
+  padding: 16px;
+  margin-bottom: 12px;
+  align-items: center;
+
+}
+
+.oxy-info-toggle img {
+  width: 1.5%;
+  height: auto;
+}
+
+.oxy-info-toggle p {
+  margin: 0 8px 0 8px;
+  color: #666;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.oxy-info-toggle a {
+  text-decoration: none;
+  color: #00ADEF;
+  transition: all ease 0.2s;
+}
+
+.oxy-info-toggle a:hover {
+  color: #E96199;
+}
+
+/*Login Form */
+
+form#oxy-login-form {
+  display: none;
+  margin: 0;
+  color: #666;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+#oxy-login-form input[type='submit'] {
+  color: #00ADEF;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  border: 1px solid #00ADEF;
+  letter-spacing: 1px;
+  background: #fff;
+  padding: 16px 36px;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  margin: 0 12px 0 0;
+}
+
+#oxy-login-form input[type='submit']:hover {
+  color: #085888;
+  border: 1px solid #085888;
+}
+
+.one-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+#oxy-login-form a {
+  color: #00ADEF;
+  text-decoration: none;
+  font-size: 12px;
+  transition: all ease 0.2s;
+}
+
+#oxy-login-form a:hover {
+  color: #E96199;
+}
+
+/*Coupon Form */
+form#oxy-coupon-form {
+  padding-bottom: 12px;
+  color: #666;
+  font-size: 16px;
+  line-height: 24px;
+  display: none;
+  border-bottom: 1px solid #ccc;
+}
+
+#oxy-coupon-form input[type='submit'] {
+  color: #00ADEF;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  border: 1px solid #00ADEF;
+  letter-spacing: 1px;
+  background: #fff;
+  padding: 16px 36px;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  margin: 0 12px 0 0;
+}
+
+#oxy-coupon-form input[type='submit']:hover {
+  color: #085888;
+  border: 1px solid #085888;
+}
+
+#coupon-input {
+  height: 32px;
+  margin: 0 12px 0 0;
+}
+
+/*Columns*/
+.two-columns-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 16px;
+}
+
+.column {
+  width:50%;
+  display:flex;
+  flex-direction: column;
+  padding-right: 24px;
+}
+
+.column:last-child {
+  padding-right: 0;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid #ccc;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  text-align: left;
+  padding: 12px 0;
+  line-height: 24px;
+  color: #000;
+  font-weight: 400;
+}
+
+td {
+  padding:12px 0;
+  width: 50%;
+  color: #666;
+  line-height: 24px;
+}
+
+td b {
+  color: #000;
+}
+
+td a {
+  color: #00ADEF;
+  transition: all ease 0.2s;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+td a:hover {
+  color: #E96199;
+}
+
+/*Billing Forms*/
+#oxy-address-form {
+  display: none;
+}
+
+div#oxy-address-form div{
+  display: flex;
+  flex-direction: column;
+}
+
+#oxy-checkout-form .two-columns-wrapper {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 6px;
+  margin-bottom: 24px;
+}
+
+/*Payment Methods */
+div#oxy-payment-methods {
+  background: #EEEEEE;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input#oxy-checkout-submit {
+  color: black;
+  background: #85cae9;
+  border: none;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-weight: bold;
+  padding: 18px 36px;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  align-self: flex-end;
+  margin: 0px;
+}
+
+input#oxy-checkout-submit:hover {
+  background: #085888;
+}
+
+div#oxy-payment-methods p {
+  font-size: 16px;
+  line-height: 24px;
+  background: #ddd;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #666;
+  margin: 0 0 12px 0;
+}
+
+/* Custom Checkboxes*/
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin: 0;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 12px;
+  line-height: 26px;
+  color: #666;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  transition: all ease 0.2s;
+}
+
+.checkbox-container:hover input ~ .checkmark {
+  border: 1px solid #00ADEF;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+  border: 1px solid #00ADEF;
+}
+
+.checkmark:after {
+  content: "✓";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+  color: #00ADEF;
+}
+
+.checkbox-container .checkmark:after {
+  left: 6px;
+  font-size: 16px;
+}
+  
+  /* Custom Radiobuttons*/
+.radiobutton-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'Montserrat', Sans-serif;
+  font-size: 12px;
+  line-height: 26px;
+  color: #666;
+}
+
+.radiobutton-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radiobutton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  transition: all ease 0.2s;
+  border-radius: 100px;
+}
+
+.radiobutton-container:hover input ~ .radiobutton {
+  border: 1px solid #00ADEF;
+}
+
+.radiobutton-container input:checked ~ .radiobutton {
+  border: 1px solid #00ADEF;
+}
+
+.radiobutton:after {
+  content: "•";
+  position: absolute;
+  display: none;
+}
+
+.radiobutton-container input:checked ~ .radiobutton:after {
+  display: block;
+  color: #00ADEF;
+  margin: -1px;
+}
+
+.radiobutton-container .radiobutton:after {
+  left: 5px;
+  top: -5px;
+  font-size: 48px;
+}
+
+/* Custom Selects */
+select {
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 16px;
+  color: #000;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  -ms-word-break: normal;
+  word-break: normal;
+  outline: none;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+
+select:focus {
+  border: 1px solid #E96199;
+  box-shadow: #E96199 0 0 5px;
+}
+
+.oxy-select-wrapper {
+  position: relative;
+}
+
+.oxy-select-wrapper:after {
+  content: '↓';
+  background: transparent;
+  font-family: 'Montserrat', sans-serif;
+  color: #aaa;
+  position: absolute;
+  top: 5px;
+  right: 12px;
+}
+
+#paypal-button-container {
+  float: right;
+  margin-right: 250px;
+}
