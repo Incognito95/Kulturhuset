@@ -1,5 +1,5 @@
 
 ![](/public/images/home.png)
-![](/images/events.png)
-![](/images/news.png)
-![](/images/contact.png)
+![](/public/images/events.png)
+![](/public/images/news.png)
+![](/public/images/contact.png)
